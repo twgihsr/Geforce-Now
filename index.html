@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerfoce NOW</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        body {
+            background-color: black;
+        }
+
+
+        body::before {
+            content: "";
+            background-image: url('Manga\ Wallpaper\ GIF.gif');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            /* Ajuste a opacidade aqui (0.1 a 1.0) */
+            opacity: 0.3;
+
+            /* Faz o fundo ocupar a tela toda atrás do conteúdo */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+
+
+
+
+        }
+
+        #logo {
+
+
+            margin-top: 2%;
+
+            width: 40vh;
+
+        }
+
+        #locais {
+
+
+            display: flex;
+
+
+
+
+        }
+
+        #lista {
+
+
+            align-items: center;
+            padding-right: 2.5rem;
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            margin-left: 50vh;
+            margin-right: 0vh;
+            margin-top: -12vh;
+            justify-content: center;
+
+
+
+
+
+
+        }
+
+        .areas {
+
+            font-size: 2.2vh;
+            text-decoration: none;
+            color: white;
+
+            margin-left: 4vh;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #jogue {
+            color: white;
+            background-color: rgba(93, 206, 0, 0.829);
+            font-size: 3vh;
+            text-align: center;
+            padding: 4vh;
+            margin-top: -10vh;
+            transition: 2s;
+        }
+
+
+
+        span {
+            color: transparent;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #sub-jg {
+            color: white;
+            font-size: 6vh;
+            display: flex;
+
+
+        }
+
+        #entrar {
+            padding: 3vh;
+            border: 0;
+            background-color: rgba(93, 206, 0, 0.829);
+            color: white;
+            font-size: 2vh;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav id="topo">
+        <h1> <img id="logo" src="logo_80.webp" </h1>
+            <div id="locais">
+                <ul id="lista">
+                    <li><a class="areas" href="#"> Conecte-se </a> </li>
+                    <li><a class="areas" href="#"> Jogos </a> </li>
+                    <li><a class="areas" href="#"> Downloads </a> </li>
+                    <li><a class="areas" href="#"> Ajuda </a> </li>
+                    <li><a class="areas" href="#"> Abya </a> </li>
+                    <li><a class="areas" href="#"> Resgatar Codigo </a> </li>
+
+                </ul>
+                <a id="jogue" href="#">JOGUE COM GEFORCE NOW</a>
+
+
+            </div>
+
+
+
+            <main>
+                <section>
+                    <h1 id="sub-jg"> JOGUE JOGOS
+                        NA NUVEM
+                    </h1>
+                    <br>
+                    <button type="button" id="entrar"> JOGUE COM GEFORCE NOW</button>
+                </section>
+            </main>
+
+
+    </nav>
+</body>
+
+</html>
